@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+    <key>CFBundleDevelopmentRegion</key><string>zh_CN</string>
+    <key>CFBundleDisplayName</key><string>PartyLOLPing</string>
+    <key>CFBundleExecutable</key><string>PartyLOLPing</string>
+    <key>CFBundleIdentifier</key><string>local.allentu.PartyLOLPing</string>
+    <key>CFBundleName</key><string>PartyLOLPing</string>
+    <key>CFBundlePackageType</key><string>APPL</string>
+    <key>CFBundleShortVersionString</key><string>1.1.0</string>
+    <key>CFBundleVersion</key><string>2</string>
+    <key>CFBundleIconFile</key><string>AppIcon</string>
+    <key>LSMinimumSystemVersion</key><string>13.0</string>
+    <key>LSUIElement</key><true/>
+    <key>NSHighResolutionCapable</key><true/>
+    <key>NSScreenCaptureUsageDescription</key><string>PartyLOLPing 仅在你主动选择后共享指定窗口画面，方便局域网内的朋友观看。</string>
+    <key>NSLocalNetworkUsageDescription</key><string>PartyLOLPing 只在本地网络中发现房间并共享你主动选择的窗口。</string>
+    <key>NSBonjourServices</key>
+    <array>
+        <string>_partylolping._tcp</string>
+        <string>_partylolping-media._tcp</string>
+    </array>
+    <key>NSPrincipalClass</key><string>NSApplication</string>
+</dict></plist>

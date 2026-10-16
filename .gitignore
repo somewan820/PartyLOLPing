@@ -1,0 +1,7 @@
+.build/
+.DS_Store
+dist/
+__pycache__/
+scripts/__pycache__/
+rust/**/target/
+rust/party-engine/Cargo.lock
